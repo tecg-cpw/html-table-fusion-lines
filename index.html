@@ -2,21 +2,40 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <title>
-
-        </title>
-        <link rel="stylesheet" href="" />
+        <title>Un tableau avec fusion de lignes</title>
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
         <h1>Un tableau avec fusion de lignes</h1>
 
-        Planning de mon weekend
-
-        Samedi 	Dimanche
-        08h00-10h00 	Sport 	Repos
-        10h00-12h00 	Etude
-        13h00-15h00 	Repos
-        15h00-19h00
-        19h00-24h00 	Sortie 	Playstation
+        <table>
+            <caption>Planning de mon weekend</caption>
+            <tr>
+                <td class="vide"></td>
+                <th scope="col">Samedi</th>
+                <th scope="col">Dimanche</th>
+            </tr>
+            <tr>
+                <th scope="row">08h00-10h00</th>
+                <td rowspan="2">Sport</td>
+                <td>Repos</td>
+            </tr>
+            <tr>
+                <th scope="row">10h00-12h00</th>
+                <td rowspan="3">Étude</td>
+            </tr>
+            <tr>
+                <th scope="row">13h00-15h00</th>
+                <td rowspan="2">Repos</td>
+            </tr>
+            <tr>
+                <th scope="row">15h00-19h00</th>
+            </tr>
+            <tr>
+                <th scope="row">19h00-24h00</th>
+                <td>Sortie</td>
+                <td>Playstation</td>
+            </tr>
+        </table>
     </body>
 </html>
