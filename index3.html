@@ -13,11 +13,11 @@
             Un tableau avec fusion de lignes
         </h1>
         <table>
-            <caption>Planning de mon weekend</caption>
+            <caption> Planning de mon weekend</caption>
             <tr>
                 <td class="vide"></td>
-                <th id="sa">Samedi</th>
-                <th id="di">Dimanche</th>
+                <th scope="col">Samedi</th>
+                <th scope="col">Dimanche</th>
             </tr>
             <tr>
                 <th id="h1">
@@ -25,8 +25,8 @@
                     -
                     <time datetime="10:00">10h00</time>
                 </th>
-                <td rowspan="2" headers="sa h1 h2">Sport</td>
-                <td headers="di h1">Repos</td>
+                <td rowspan="2" headers="h1 h2">Sport</td>
+                <td headers="h1">Repos</td>
             </tr>
             <tr>
                 <th id="h2">
@@ -35,7 +35,7 @@
                     <time datetime="12:00">12h00</time>
                 </th>
                 <!-- <td> Sport </td> Cellule supprimée car recouverte par rowspan-->
-                <td rowspan="3" headers="di h2 h3 h4">Étude</td>
+                <td rowspan="3" headers="h2 h3 h4">Étude</td>
             </tr>
             <tr>
                 <th id="h3">
@@ -43,7 +43,7 @@
                     -
                     <time datetime="15:00">15h00</time>
                 </th>
-                <td rowspan="2" headers="sa h3 h4">Repos</td>
+                <td rowspan="2" headers="h3 h4">Repos</td>
                 <!-- <td> Etude </td><Cellule supprimée car recouverte par rowspan-->
             </tr>
             <tr>
@@ -61,8 +61,8 @@
                     -
                     <time datetime="24:00">24h00</time>
                 </th>
-                <td headers="sa h5">Sortie</td>
-                <td headers="di h5">Playstation</td>
+                <td headers="h5">Sortie</td>
+                <td headers="h5">Playstation</td>
             </tr>
         </table>
     </body>
