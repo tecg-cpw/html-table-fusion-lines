@@ -21,7 +21,7 @@ L’objectif de cet exercice est de réaliser une table avec des fusions de lign
 ### Aides
 
 1. Commencez par baliser la table comme s’il n’y avait pas de fusions ;
-2. Ajoutez les attributs nécessaires pour fusionner les lignes ;
+2. Ajoutez les attributs `rowspan` nécessaires pour fusionner les lignes ;
 3. Ajoutez les attributs d’accessibilité pour lier les cellules de données et les cellules de titre (vous devez ici,
    obligatoirement, travailler avec les attributs `id`/`headers` pour les lignes car il y a des fusions de lignes dans le
    tableau ; pour les colonnes, vous avez le choix) ;
@@ -98,5 +98,3 @@ va générer 8 lignes (8 balises `tr`) qui contiennent toutes un `th`avec un att
 	<td headers=""></td>
 </tr>
 ```
-
-N'oubliez pas de lier la feuille de styles qui se trouve dans le dossier `css`.
